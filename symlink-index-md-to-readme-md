@@ -1,0 +1,3 @@
+find . -name 'index.md' | 
+xargs dirname | 
+xargs -I{} ln -sfn "{}/index.md" "{}/README.md" 
