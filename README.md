@@ -2,6 +2,12 @@
 
 Symlink each index.md file to its corresponding README.md file.
 
+Syntax:
+
+    symlink-index-md-to-readme-md
+
+This tool processes all the files in the current directory and below.
+
 This tool is typically useful for systems that display the files differently:
 
   * A typical webserver directory will display the file "index.md" by default.
